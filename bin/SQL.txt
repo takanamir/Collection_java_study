@@ -1,0 +1,36 @@
+create table flowersales (
+    name varchar(20),
+    date date,
+    quantity integer,
+    price integer,
+    amount integer
+);
+insert into flowersales values (
+    'バラ',
+    '2005-01-15',
+    7,
+    80,
+    560
+);
+insert into flowersales values (
+    'バラ',
+    '2005-01-16',
+    10,
+    80,
+    800
+);
+insert into flowersales values (
+    'すみれ',
+    '2005-01-15',
+    8,
+    60,
+    480
+);
+insert into flowersales values (
+    'すみれ',
+    '2005-01-17',
+    11,
+    70,
+    770
+);
+select  * from flowersales;

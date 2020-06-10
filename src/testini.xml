@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<ini>
+  <section name="language">
+    <entry name="country">日本</entry>
+    <entry name="encoding">Shift_JIS</entry>
+  </section>
+  <section name="system">
+    <entry name="os">linux</entry>
+    <entry name="distribution">Debian</entry>
+    <entry name="version">3.0</entry>
+  </section>
+</ini>

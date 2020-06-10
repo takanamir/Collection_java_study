@@ -48,7 +48,7 @@ public class PrimitiveCollectionTester {
 		// 要素全部を表示する
 		System.out.println("---- int[] ----");
 		all = list.iterator();
-		while (all.hasNext()) {
+		while(all.hasNext()) {
 			int[] ii = (int[]) all.next();
 			System.out.println(ii[0]);
 		}
